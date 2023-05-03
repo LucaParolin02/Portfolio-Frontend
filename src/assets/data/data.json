@@ -1,0 +1,70 @@
+{
+    "name": "Luca Parolin Massara",
+    "age": 20,
+    "img": "assets/img/FOTOSTRIKENAZI.jpg",
+    "mail": "lucaparolin02@gmail.com",
+    "phone": "1130117321",
+    "location": "Buenos Aires, Argentina",
+    "desc": "i'm currently studying a Software Degree on the UNGS and im an active learner of the IT enviroment also, i'm doing a course to be a Fullstack JR Developer. I love to work as a team and develop wonderful things.",
+    "skills": [
+        {
+            "name": "HTML",
+            "value": "60%"
+        },
+        {
+            "name": "CSS",
+            "value": "60%"
+        },
+        {
+            "name": "JavaScript",
+            "value": "40%"
+        },
+        {
+            "name": "Python",
+            "value": "50%"
+        },
+        {
+            "name": "SQL",
+            "value": "40%"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Portfolio",
+            "desc": "I built ....",
+            "img": "assets/img/hulk.jpg"
+        },
+        {
+            "name": "Calculadora",
+            "desc": "I built ....",
+            "img": ""
+        }
+    ],
+    "social": [
+        {
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/luca-parolin-91b20422b/",
+            "img": "assets/img/linkedin.png"
+        },
+        {
+            "name": "Github",
+            "link": "https://github.com/LucaParolin02",
+            "img": "assets/img/github.png"
+        },
+        {
+            "name": "Twitter",
+            "link": "https://twitter.com/lucaparolin10",
+            "img": "assets/img/twitter.png"
+        },
+        {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/luca.parolin.33",
+            "img": "assets/img/facebook.png"
+        },
+        {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/lucaparolin_/",
+            "img": "assets/img/instagram.png"
+        }
+    ]
+}

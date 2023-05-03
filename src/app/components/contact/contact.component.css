@@ -1,0 +1,162 @@
+/*Estilos de la seccion contact*/
+#contact {
+    width: 100%;
+    margin-top: -30px;
+    padding-top: 30px;
+}
+
+/*Estilos del titulo de la seccion contact*/
+#contact h1 {
+    text-align: center;
+    font-family: 'Nova Flat';
+    font-size: calc(1.4em + 1.4vw);
+    margin-bottom: 5vh;
+    color: #f10518;
+}
+
+/*Estilos del form general*/
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Estilos de los campos a rellenar*/
+form input, textarea{
+    background-color: #787e8c;
+    color: #f10518;
+    border-color: #9c2a34;
+    border-radius: 5px;
+    width: 80%;
+    letter-spacing: 1px;
+    font-family: 'Nova Flat';
+    align-self: center;
+    padding: 10px 0px 10px 10px;
+}
+
+textarea{
+    max-width: 80%;
+}
+
+/*Placehorder styles*/
+::placeholder{
+    color: #090909;
+}
+
+/*Estilos cuando se clickea*/
+textarea:focus, input:focus{
+    box-shadow: #f10518 0px 0px 0px 4px;
+}
+
+/*Boton de Send*/
+button{
+    align-self: center;
+    max-width: 80%;
+    border-radius: 5px;
+}
+
+/*Propiedades del boton*/
+.send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 80%;
+    font-family: 'Nova Flat';
+    background-color: #9c2a34;
+    border: none;
+    color: #090909;
+}
+
+/*Estilos al mantener cursor sobre el boton*/
+.send-button:hover{
+    background-color: #f10518;
+    color: #090909;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    margin: 0 auto;
+    width: 80%;
+}
+
+i, span{
+    color: #9c2a34;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.info a{
+    text-decoration: none;
+    color: #9c2a34;
+}
+
+.info a:hover{
+    color: #f10518;
+}
+
+span .text{
+    font-size: calc(1vw + 1vh);
+    color: #9c2a34;
+    font-family: 'Nova Flat';
+}
+
+/* Social Media Icons */
+.social-media{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8vw;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.social-media a img{
+    width: 100%;
+    height: 100%;
+    max-width: 60px;
+    max-height: 60px;
+    filter: invert(22%) sepia(13%) saturate(7418%) hue-rotate(325deg) brightness(100%) contrast(97%);
+}
+
+.social-media a img:hover{
+    filter: invert(14%) sepia(99%) saturate(6680%) hue-rotate(351deg) brightness(93%) contrast(103%);
+}
+
+@media screen and (min-width: 870px) {
+    .social-media a img {
+        display: none;
+    }
+    a > i{
+        display: none;
+    }
+    form input, textarea{
+        width: 50%;
+    }
+    textarea{
+        max-width: 50%;
+    }
+    button{
+        max-width: 50%;
+    }
+    .send-button{
+        width: 50%;
+    }
+    .info{
+        width: 50%;
+    }
+}
+
+a>i{
+    color: #c5c6c7;
+}
+.copyright {
+    margin-top: 100px;
+    font: 200 14px 'Oswald', sans-serif;
+    color: #fdfdfd;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 10px;
+}

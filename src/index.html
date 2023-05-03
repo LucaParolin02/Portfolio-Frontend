@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portafolio</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#9c2a34">
+  <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+  <link rel="icon" type="image/x-icon" href="assets/img/iconito.png">
+  <script src="https://kit.fontawesome.com/3217633058.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <app-root></app-root>
+
+  <script>
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myNavbar").style.top = "0";
+      } else {
+        document.getElementById("myNavbar").style.top = "-50px";
+      }
+    }
+  </script>
+</body>
+
+</html>

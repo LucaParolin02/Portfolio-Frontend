@@ -1,0 +1,62 @@
+#skills {
+    margin: 0 4vw 0 4vw;
+    box-sizing: border-box;
+    margin-top: -30px;
+    padding-top: 30px;
+    margin-bottom: 20vh;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    border-radius: 15px;
+    background-color: #787e8c;
+}
+
+i{
+    padding-left: 6px;
+    color: #C5C6C7;
+  }
+
+/*Estilos de las letras y las barras de las skills*/
+#skills h1 {
+    text-align: center;
+    font-family: 'Nova Flat';
+    font-size: calc(1.4em + 1.4vw);
+    color: #f10518;
+}
+
+#skills p {
+    margin-top: 2vh;
+    font-family: 'Nova Flat';
+    font-size: calc(0.9em + 0.9vw);
+    color: #fdfdfd;
+}
+
+.skills {
+    text-align: right;
+    border-radius: 15px;
+    padding: 10px 10px 10px;
+    color: #252525;
+    font-family: 'Nova Flat';
+    transform: scaleX(0);
+    transform-origin: left;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px rgba(238, 4, 4, 0.973);
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@media screen and (max-width:870px){
+    #skills{
+        margin-top: 5vh;
+        margin-right: 12vw;
+    }
+}

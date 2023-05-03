@@ -1,0 +1,83 @@
+.login{
+    min-height: 100vh;
+    max-height: 100vh;
+    background: rgb(83,31,31);
+    background: radial-gradient(circle, rgba(83,31,31,1) 0%, rgba(74,21,21,1) 42%, rgba(172,34,34,1) 50%, rgba(34,1,1,1) 100%);
+}
+
+h1 {
+    padding-top: 15vh;
+    text-align: center;
+    font-family: 'Nova Flat';
+    font-size: calc(1.4em + 1.4vw);
+    color: #fdfdfd;
+  }
+
+/*Estilos del form general*/
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Estilos de los campos a rellenar*/
+form input{
+    background-color: #0B0C10;
+    color: #fdfdfd;
+    border-color: #0B0C10;
+    border-radius: 5px;
+    width: 40%;
+    letter-spacing: 1px;
+    font-family: 'Nova Flat';
+    align-self: center;
+    padding: 10px 0px 10px 10px;
+}
+
+/*Placehorder styles*/
+::placeholder{
+    color: #fdfdfd;
+}
+
+/*Estilos cuando se clickea*/
+input:focus{
+    box-shadow: #0B0C10 0px 0px 0px 4px;
+}
+
+/*Boton de Send*/
+button{
+    align-self: center;
+    max-width: 40%;
+    border-radius: 5px;
+}
+
+/*Propiedades del boton*/
+.send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 80%;
+    font-family: 'Nova Flat';
+    background-color: #0B0C10;
+    border: none;
+    color: #fdfdfd;
+}
+
+/*Estilos al mantener cursor sobre el boton*/
+.send-button:hover{
+    background-color: #f10518;
+    color: #fdfdfd;
+}
+
+.errorMessage{
+    text-align: center;
+    color: red;
+}
+
+.signUp{
+    text-align: center;
+    color: #0B0C10;
+    margin-top: 30px;
+    font-family: "Nova Flat";
+}
+
+.signUp a{
+    color: #fdfdfd;
+}

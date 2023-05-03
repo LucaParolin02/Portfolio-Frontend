@@ -1,0 +1,101 @@
+/*Estilos de la seccion projects*/
+#projects {
+  margin: -30px 4vw 0 4vw;
+  padding-top: 30px;
+  margin-bottom: 20vh;
+}
+
+h1 {
+  margin-top: 20vh;
+  text-align: center;
+  font-family: 'Nova Flat';
+  font-size: calc(1.4em + 1.4vw);
+  margin-bottom: 1vh;
+  color: #f10518;
+}
+
+#myProjects{
+  margin-top: 1vh;
+  width: 100%;
+  display: grid;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+#img{
+  width: 60%;
+}
+
+#img img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  float: left;
+}
+
+#text{
+  width: 40%;
+  float: right;
+  font-size: calc(1.5vw + 1.5vh);
+}
+
+h2{
+  text-align: right;
+  font-size: calc(1.5vw + 1.5vh);
+  color: #fdfdfd;
+}
+
+p{
+  text-align: right;
+  font-size: calc(1.5vw + 1.5vh);
+  color: #f10518;
+}
+
+i{
+  padding-left: 6px;
+  color: #C5C6C7;
+}
+
+h3{
+  padding: 15px;
+  border: 3px solid #f10518;
+  background-color: #787e8c;
+  color: #090909;
+  position: relative;
+  left: -80px;
+  font-size: calc(1.5vw + 1.5vh);
+}
+
+@media screen and (max-width: 870px) {
+    #projects{
+      display: flex;
+      flex-direction: column;
+    }
+    #project{
+      margin-right: 12vw;
+    }
+    #img{
+      width: 100%;
+    }
+    #img img{
+      float: none;
+    }
+    #text{
+      width: 100%;
+      height: 100%;
+      float: none;
+      font-size: medium;
+      text-align: justify;
+    }
+    p{
+      text-align: center;
+    }
+    h2{
+      text-align: center;
+    }
+    h3{
+      left: 0;
+    }
+}
